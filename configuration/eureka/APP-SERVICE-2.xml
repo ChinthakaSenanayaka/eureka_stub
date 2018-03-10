@@ -1,0 +1,35 @@
+<application>
+  <name>APP-SERVICE-2</name>
+  <instance>
+    <hostName>localhost</hostName>
+    <app>APP-SERVICE-2</app>
+    <ipAddr>127.0.0.1</ipAddr>
+    <status>UP</status>
+    <overriddenstatus>UNKNOWN</overriddenstatus>
+    <port enabled="true">8085</port>
+    <securePort enabled="false">443</securePort>
+    <countryId>1</countryId>
+    <dataCenterInfo class="com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo">
+      <name>MyOwn</name>
+    </dataCenterInfo>
+    <leaseInfo>
+      <renewalIntervalInSecs>10</renewalIntervalInSecs>
+      <durationInSecs>90</durationInSecs>
+      <registrationTimestamp>1513590884302</registrationTimestamp>
+      <lastRenewalTimestamp>1518082054657</lastRenewalTimestamp>
+      <evictionTimestamp>0</evictionTimestamp>
+      <serviceUpTimestamp>1513590854284</serviceUpTimestamp>
+    </leaseInfo>
+    <metadata>
+      <instanceId>app-service-2:1234</instanceId>
+    </metadata>
+    <homePageUrl>http://localhost:8085/</homePageUrl>
+    <statusPageUrl>http://localhost:8085/info</statusPageUrl>
+    <healthCheckUrl>http://localhost:8085/health</healthCheckUrl>
+    <vipAddress>app-service-2</vipAddress>
+    <isCoordinatingDiscoveryServer>false</isCoordinatingDiscoveryServer>
+    <lastUpdatedTimestamp>1513590884302</lastUpdatedTimestamp>
+    <lastDirtyTimestamp>1513590884251</lastDirtyTimestamp>
+    <actionType>ADDED</actionType>
+  </instance>
+</application>

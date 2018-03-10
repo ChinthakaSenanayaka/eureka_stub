@@ -1,0 +1,31 @@
+-   request:
+     method: [GET,POST,PUT,DELETE]
+     url: /eureka/apps/([A-Za-z\-]+)
+    response:
+     headers:
+       content-type: application/xml
+     file: ../configuration/eureka/<% url.1 %>.xml
+    
+-   request:
+     method: [GET,POST,PUT,DELETE]
+     url: /eureka/apps/
+    response: 
+     headers:
+        content-type: application/xml
+     file: ../configuration/eureka/all-applications.xml
+
+-   request:
+     method: [GET,POST,PUT,DELETE]
+     url: /eureka/apps/([A-Za-z\-]+)/([A-Za-z0-9:-]+)
+     headers:
+        content-type: application/xml
+         
+-   request:
+     method: [GET,POST,PUT,DELETE]
+     url: /eureka/apps/([A-Za-z\-]+)/([A-Za-z0-9:-]+)
+     query:
+      status: UP
+      lastDirtyTimestamp: ([0-9]+)
+    response: 
+     headers:
+        content-type: application/xml   

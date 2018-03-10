@@ -1,0 +1,35 @@
+<application>
+  <name>ZUULSERVER</name>
+  <instance>
+    <hostName>localhost</hostName>
+    <app>ZUULSERVER</app>
+    <ipAddr>127.0.1.1</ipAddr>
+    <status>UP</status>
+    <overriddenstatus>UNKNOWN</overriddenstatus>
+    <port enabled="true">8080</port>
+    <securePort enabled="false">443</securePort>
+    <countryId>1</countryId>
+    <dataCenterInfo class="com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo">
+      <name>MyOwn</name>
+    </dataCenterInfo>
+    <leaseInfo>
+      <renewalIntervalInSecs>10</renewalIntervalInSecs>
+      <durationInSecs>90</durationInSecs>
+      <registrationTimestamp>1513590884302</registrationTimestamp>
+      <lastRenewalTimestamp>1518082054657</lastRenewalTimestamp>
+      <evictionTimestamp>0</evictionTimestamp>
+      <serviceUpTimestamp>1513590854284</serviceUpTimestamp>
+    </leaseInfo>
+    <metadata>
+      <instanceId>zuulserver:1234</instanceId>
+    </metadata>
+    <homePageUrl>http://localhost:8080/</homePageUrl>
+    <statusPageUrl>http://localhost:8080/info</statusPageUrl>
+    <healthCheckUrl>http://localhost:8080/health</healthCheckUrl>
+    <vipAddress>zuulserver</vipAddress>
+    <isCoordinatingDiscoveryServer>false</isCoordinatingDiscoveryServer>
+    <lastUpdatedTimestamp>1513590884302</lastUpdatedTimestamp>
+    <lastDirtyTimestamp>1513590884251</lastDirtyTimestamp>
+    <actionType>ADDED</actionType>
+  </instance>
+</application>
